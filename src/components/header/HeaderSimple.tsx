@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom';
 
 const links = [
   { link: '/', label: 'Главная страница' },
-  { link: '/task/find', label: 'Найти задание' },
-  { link: '/task/create', label: 'Создать задание' },
+  { link: '/tasks/find', label: 'Найти задание' },
+  { link: '/tasks/create', label: 'Создать задание' },
 ];
 
 export function HeaderSimple() {

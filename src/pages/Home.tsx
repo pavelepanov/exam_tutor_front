@@ -1,4 +1,4 @@
-import { HeaderSimple } from "../components/header/HeaderSimple"
+import { HeaderSimple } from "../components/Header/HeaderSimple"
 import { Text, Container, Paper } from "@mantine/core"
 
 export function HomePage() {

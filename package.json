@@ -12,6 +12,7 @@
   "dependencies": {
     "@mantine/core": "^7.15.3",
     "@mantine/hooks": "^7.15.3",
+    "@tabler/icons-react": "^3.28.1",
     "postcss": "^8.4.49",
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
