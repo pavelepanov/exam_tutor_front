@@ -6,17 +6,17 @@ import { useNavigate } from 'react-router-dom';
 export function TaskFindInput(props: TextInputProps) {
   const theme = useMantineTheme();
 
-  const [id, setId] = useState("");
+  const [FindCode, setFindCode] = useState("");
 
   const navigate = useNavigate()
 
   const handleInputChange = (e) => {
-    setId(e.target.value); 
+    setFindCode(e.target.value); 
   };
 
 
   const goToTask = () => {
-    navigate(`/tasks/${id}`)
+    navigate(`/tasks/${FindCode}`)
   }
 
 
@@ -29,7 +29,7 @@ export function TaskFindInput(props: TextInputProps) {
       rightSectionWidth={42}
       leftSection={<IconSearch size={18} stroke={1.5} />}
       rightSection={
-        <ActionIcon size={32} radius="xl" color={theme.primaryColor} variant="filled" onClick={goToTask} value={id}>
+        <ActionIcon size={32} radius="xl" color={theme.primaryColor} variant="filled" onClick={goToTask} value={FindCode}>
           <IconArrowRight size={18} stroke={1.5} />
         </ActionIcon>
       }

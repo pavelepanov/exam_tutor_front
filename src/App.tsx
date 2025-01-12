@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <HomePage /> } />
         <Route path="/tasks/find" element={ <TaskFind /> } />
-        <Route path="/tasks/:id" element={ <Task /> } />
+        <Route path="/tasks/:FindCode" element={ <Task /> } />
       </Routes>
   );
 }
