@@ -25,7 +25,7 @@ export function TaskFindInput(props: TextInputProps) {
     onChange={handleInputChange}
       radius="xl"
       size="md"
-      placeholder="Найти задание"
+      placeholder="Введите код задания"
       rightSectionWidth={42}
       leftSection={<IconSearch size={18} stroke={1.5} />}
       rightSection={
