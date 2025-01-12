@@ -1,5 +1,5 @@
 import { HeaderSimple } from "../../components/Header/HeaderSimple"
-import { SearchInput } from "../../components/SearchInput/SearchInput"
+import { TaskFindInput } from "../../components/TaskFindInput/TaskFindInput"
 
 export function TaskFind() {
     return (
@@ -9,7 +9,7 @@ export function TaskFind() {
             </div>
 
             <div>
-                <SearchInput />
+                <TaskFindInput />
             </div>
         </div>
     )
