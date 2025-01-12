@@ -75,13 +75,19 @@ export function Task() {
                   justify="flex-start"
                   gap="md"
             >
-            <Image
+            <div>
+            {task_photo_urls.map((src, index) => (
+                <Image key={index} src={src} alt={`image-${index}`}
                 radius="md"
-                h={350}
-                w={350}
-                fit="contain"
-                src={task_photo_urls[0]}
-            />
+                    h={350}
+                    w={350}
+                    fit="contain"
+ />
+                    ))}
+            </div>
+            <div>
+                
+            </div>
             <Text size="md" fs="italic">
                 Условие задания: 
             </Text>
